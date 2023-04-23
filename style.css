@@ -31,16 +31,18 @@ nav {
     display: inline-block;
     padding: 20px;
     list-style: none;
-    
+    margin-right: 15px;
 }
 
-#anchortext {
+.anchortext {
     color: white;
     text-decoration: none;
+    
 }
 
 #anchortext:hover {
     color: coral;
+    transition: .5s;
 }
 
 .shape-image {
