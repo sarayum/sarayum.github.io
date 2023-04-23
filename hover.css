@@ -1,4 +1,7 @@
 
+*{
+    font-family: 'Shadows Into Light', cursive;
+}
 /* Hover effects for shape-image container */
 
 .randomshape:hover{
@@ -29,4 +32,33 @@
 
 #hover-a:hover .fa-envelope:before { 
     color: coral;
+}
+
+[data-title]:hover::after {
+    /* content: attr(title);
+    position: absolute;
+    top: -10%;
+    left: 0; */
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+  }
+  [data-title]:after {
+    content: attr(data-title);
+    background-color: coral;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    position: absolute;
+    padding: 1px 5px 2px 5px;
+    bottom: -1.8em;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    border-radius: 5px;
+    z-index: 10;
+    visibility: hidden;
+}
+[data-title] {
+    position: relative;
 }
