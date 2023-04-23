@@ -59,7 +59,7 @@ padding: 20px;
     align-items: center;
     width: 25rem;
     height: 25rem;
-    background: #E97451; 
+    background: #e67f60; 
    /* border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;*/
     border-radius: 63% 37% 22% 78% / 48% 42% 58% 52% ;
 }
@@ -67,7 +67,7 @@ padding: 20px;
 .image-container { 
     width: 11rem;
     height: 11rem;
-    margin: 1rem; */
+    margin: 1rem; 
    /* border: 0.5rem solid white;*/
      border-radius: 50%;
     overflow: hidden;
@@ -77,3 +77,11 @@ padding: 20px;
     width:200px;
 
 } 
+
+.randomshape .text-center {
+    position: absolute;
+    top:16%;
+    left:48%;
+    /* transform: translate(-50%, -50%); */
+}
+
