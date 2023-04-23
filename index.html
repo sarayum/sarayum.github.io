@@ -9,14 +9,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-
-    <!--Fontawsome Script-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+   
+    <!-- Scripts-->
     <!--<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./aboutme.js" type="text/javascript" defer> </script>
+    
     <!--External Stylesheets-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="./style.css" rel="stylesheet" type="text/css">
     <link href="./curvedtext.css" rel="stylesheet" type="text/css">
     <link href="./hover.css" rel="stylesheet" type="text/css">
+    <link href="./aboutme.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
@@ -24,11 +30,11 @@
         <nav>
             <img src="./rss/images/Saranya logo.png" alt="logo" class="logo">
             <ul>
-                <li id ="navli"><a id="anchortext" href="#">HOME</a></li>
-                <li id ="navli"><a id="anchortext" href="#">ABOUT</a></li>
+                <li id ="navli"><a class="anchortext" href="#">HOME</a></li>
+                <li id ="navli"><a class="anchortext" id="open-btn" href="#">ABOUT</a></li>
             </ul>  
         </nav>
-
+        
        <section class="shape-image">
             <div class="randomshape">
                 <h1 class="text-center">
@@ -65,7 +71,21 @@
                 </li>
             </ul>
         </div>
+        <div id="modal-container">
+            <div id="modal">
+                <p id="close-btn">&times;</p>
+                <h1>Hello, I'm Saranya Muthulingam</h1>
+                <p>I am an entry-level full-stack Java developer. I am passionate about using my skills and knowledge to create innovative solutions to complex problems.</p>
+                <p>I have recently from Generation USA, where I gained a solid foundation in programming concepts and algorithms. During my studies, I focused on learning JavaScript,Java and gained expertise in developing web applications using frameworks such as Spring Boot.</p>
+                <p>In addition to my academic achievements, I have also completed several projects on my own and collaborated on group projects that required me to apply my skills to solve real-world problems. My projects have included developing a web application for a local business that increased their online visibility and developing a platform to connect freelance developers with potential clients.</p>
+                <p>I am proficient in both front-end and back-end development, with skills in HTML, CSS, JavaScript, and ReactJS. I am also experienced in using databases like MySQL.</p>
+                <p>I am always looking to expand my skill set and take on new challenges. I am a quick learner and am always willing to learn from my colleagues and mentors.</p> 
+                <p>Thank you for taking the time to read my about me section. Please feel free to browse my portfolio and contact me if you have any questions or would like to discuss any potential opportunities.
+                </p>
+    
+            </div>
+        </div>
      </div>
-     
+
 </body>
 </html>
