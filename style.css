@@ -43,7 +43,7 @@ nav {
     color: coral;
 }
 
-/* .shape-image {
+.shape-image {
 position: relative;
 display: flex;
 justify-content: center;
@@ -54,14 +54,14 @@ padding: 20px;
 
 .randomshape {
     /*position: relative;*/
-    /* display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 25rem;
     height: 25rem;
-    background: #E97451; */
+    background: #E97451; 
    /* border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;*/
-    /* border-radius: 63% 37% 22% 78% / 48% 42% 58% 52% ;
+    border-radius: 63% 37% 22% 78% / 48% 42% 58% 52% ;
 }
 
 .image-container { 
@@ -69,11 +69,11 @@ padding: 20px;
     height: 11rem;
     margin: 1rem; */
    /* border: 0.5rem solid white;*/
-    /* border-radius: 50%;
+     border-radius: 50%;
     overflow: hidden;
 }
 
 #image {
     width:200px;
 
-} */ 
+} 
