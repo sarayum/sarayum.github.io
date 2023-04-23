@@ -1,0 +1,60 @@
+h1 span {
+    font-size: 26px ;
+    transform-origin: bottom;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 300px;
+    width: 50px;
+    left: 50;
+    top: 50;
+    position: absolute;
+    }
+    .c1 {
+    /* transform: rotate(6deg); */
+    transform: rotate(-10deg);
+    color: violet;
+    }
+    .c2 {
+    /* transform: rotate(12deg); */
+    transform: rotate(-6deg);
+    color: indigo;
+    }
+    .c3 {
+    /* transform: rotate(18deg); */
+    transform: rotate(-2deg);
+    color: blue;
+    }
+    .c4 {
+    /* transform: rotate(24deg); */
+    transform: rotate(2deg);
+    color: green;
+    }
+    .c5 {
+    /* transform: rotate(30deg); */
+    transform: rotate(6deg);
+    color: yellow;
+    }
+    .c6 {
+    /* transform: rotate(36deg); */
+    transform: rotate(10deg);
+    color: orange;
+    }
+    .c7 {
+    /* transform: rotate(43deg); */
+    transform: rotate(14deg);
+    color: red;
+    }
+    .c8 {
+    /* transform: rotate(48deg); */
+    transform: rotate(18deg);
+    color: purple;
+    }
+    .c9 {
+    /* transform: rotate(54deg); */
+    transform: rotate(22deg);
+    color: goldenrod;
+    }
+    /* .c10 {
+    transform: rotate(60deg);
+    color: teal;
+    } */
+    
