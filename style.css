@@ -55,8 +55,7 @@ padding: 20px;
 
 .randomshape {
     position: absolute;
-    top:60%;
-    
+    top:60%; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,4 +94,34 @@ padding: 20px;
     left:48%;
    
 } */
+
+
+.font-awesome {
+    position:absolute;
+    top:55%;
+    left:45%; 
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    /* margin: 10px 0; */
+    /* padding: 10px 0; */
+}
+
+/*.button {
+    width:50px;
+    height:px;  
+    background-color: rgb(145, 151, 160);
+    font-size: 2rem;
+    border: .5px solid rgb(145, 151, 160);
+}  */
+
+.font-awesome ul { 
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.font-awesome li { 
+    padding: 1rem;
+}
 

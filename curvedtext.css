@@ -4,9 +4,10 @@ h1 span {
     font-family: 'Shadows Into Light', cursive;
     height: 300px;
     width: 50px;
+    
     /* left: 50;
     top: 50; */
-    position: absolute; 
+     position: absolute; 
     top:12%;
     left:46%;
     }
