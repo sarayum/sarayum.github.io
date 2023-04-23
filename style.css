@@ -50,10 +50,13 @@ justify-content: center;
 align-items: center;
 margin: 20px;
 padding: 20px;
+
 }
 
 .randomshape {
-    /*position: relative;*/
+    position: absolute;
+    top:60%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,6 +65,7 @@ padding: 20px;
     background: #e67f60; 
    /* border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;*/
     border-radius: 63% 37% 22% 78% / 48% 42% 58% 52% ;
+    
 }
 
 .image-container { 
@@ -75,13 +79,30 @@ padding: 20px;
 
 #image {
     width:200px;
-
+   
 } 
 
-.randomshape .text-center {
+/* .randomshape .text-center {
     position: absolute;
     top:16%;
     left:48%;
-    /* transform: translate(-50%, -50%); */
+   
+} */
+
+.randomshape:hover{
+   opacity: 0.7;
+    left: 20%;
+    transition: left 1s linear;
 }
 
+.randomshape:hover #image {
+    transform: scale(1.3);
+    transition: all 0.5s ease-out;
+}
+    
+
+.randomshape:hover #text {
+    color: white;
+    transition:  color 0.5s ease-in;
+}
+    
